@@ -1,0 +1,304 @@
+body{
+
+	 font-family: sans-serif;
+	
+}
+.entry{
+	color:white;
+	background-image:url("https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg");
+    
+      background-size:100% 100%; 
+    
+
+    
+} 
+
+
+ h1{
+
+ 	display: inline-block;
+
+font: 35px arial, sans-serif;
+margin-right: 100px;
+margin-top: 50px;
+margin-left: 120px;
+
+float: left;
+width:200px;
+cursor: pointer;
+}
+
+div.inline{
+	
+
+
+width:100px;
+margin-left: 80px;
+padding-right: 90px;
+
+}
+p.text{
+
+	font-style: italic;
+	word-spacing: 1px;
+	letter-spacing: 0.1px;
+
+	background: transparent;
+margin-left: -390px;
+width:530px;
+font-size: 16px;
+margin-bottom: 40px;
+padding-right:50px;
+}
+h2{
+padding-top: 20px;
+width:550px;
+margin-left: -390px;	
+font: 41px arial,sans-serif;
+margin-top: 90px;
+
+}
+
+
+
+#menu{
+	margin-top: 40px;
+	color: white;
+margin-left: 90px;
+
+
+}
+
+.button{
+	
+	text-decoration: none;
+	border: 2px solid;
+	border-color: white;
+	height: 30px;
+	margin: 2px;
+	padding-top: 10px;
+	padding-right:35px;
+	padding-left:35px ;
+	padding-bottom:10px ;
+	border-radius: 25px;
+
+	}
+
+.button1{
+
+	text-decoration: none;
+	background:transparent;
+	height: 30px;
+	margin:2px;
+	padding: 5px;
+
+} 
+
+.button2{
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8'?%3e%3csvg width='7px' height='12px' viewBox='0 0 7 12' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch --%3e%3ctitle%3eIcon%3c/title%3e%3cdesc%3eCreated with Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg id='Headers-/-Header%237' stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' transform='translate(-1271.000000, -44.000000)'%3e%3cg id='Header%237' fill='%232C99ED'%3e%3cg id='Button-Copy' transform='translate(1172.000000, 29.000000)'%3e%3cpath d='M100.327533,15.2199341 C100.024163,14.9266886 99.5314786,14.9266886 99.2281091,15.2199341 C98.9239636,15.5124295 98.9239636,15.9879221 99.2281091,16.2804175 L104.122368,21.0000937 L99.2281091,25.71977 C98.9239636,26.0122654 98.9239636,26.487758 99.2281091,26.7802534 C99.3801818,26.9265011 99.5788074,27 99.7782088,27 C99.9768344,27 100.17546,26.9265011 100.327533,26.7802534 L105.771891,21.5303355 C106.076036,21.23784 106.076036,20.7623475 105.771891,20.469852 L100.327533,15.2199341 Z' id='Icon'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e");
+background-repeat: no-repeat;
+background-position: 115px ;
+
+
+
+	color:#0080FF;
+	display: inline;
+	text-decoration: none;
+	border: 2px solid;
+	border-color: #0080FF;
+	height: 30px;
+
+
+	padding-top: 10px;
+	padding-right:40px;
+	padding-left:35px ;
+	padding-bottom:10px ;
+	border-radius: 25px;
+
+
+
+	}
+
+
+.button:hover{
+	
+	color: white;
+}
+.button2:hover{
+	
+	color: #0080FF;
+}
+.button2:active{
+	background: #0080FF;
+	color: white;
+}
+ul{
+	display: inline;
+	padding: 0;
+	list-style-type: none;
+}
+li{
+
+	
+	text-decoration: none;
+}
+ul li {
+	display: inline;
+	padding: 5px;
+	margin: 10px;
+
+
+}
+ul li a{
+	
+
+background:transparent;
+	
+	text-decoration: none;
+	font-size: 19px;
+	color: white;
+
+}
+
+a:hover{
+	color:grey;
+	cursor: url("cursor.ico");
+	
+}
+.form{
+
+	margin:100px;
+	padding-left: 100px;
+	
+	
+}
+
+.focus{
+	
+	color: white;
+	background: black;
+	padding: 19px;
+
+	
+
+}
+.search_code{
+	color: white;
+	 position: absolute;
+	
+	opacity: 1;
+}
+input{
+	 position: relative;
+	
+	color: white;
+	width: 450px;
+	font-size: 18px;
+	border-width: 1px; 
+	border-color:grey;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    opacity: 0.6;
+    text-align: left;
+    clear: both;
+
+
+}
+
+
+.search{
+	color: white;
+	background: #007FFF;
+	opacity: 1;
+    text-align:center;
+	border: 0px;
+	border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	margin-bottom:130px; 
+	padding: 20px;
+
+}
+.search:hover	{
+	background: #104E8B;
+cursor: pointer;
+
+
+}
+
+h3{ font-style: bold;
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	margin-top:-20px;
+	margin-bottom: 0px;
+	
+}
+div.inline { float:left; }
+
+.container {
+  display: : inline;
+  margin: 15px;
+  margin-left:36px;
+  padding-left: -9px;
+  padding-bottom: 4px;
+ 
+  float: left;
+  width: 250px;
+  box-shadow: 0 1px 0px 0 rgba(0, 0, 0, 0.05), 0 7px 1px 0 rgba(0, 0, 0, 0.04);
+}
+
+
+.container img {
+	margin: 15px;
+	padding-bottom: 1px;
+	padding-right: 0px;
+	display: : inline;
+  width: 100%;
+  height: 170px;
+
+}
+
+
+.container .btn {
+	padding:8px;border-radius: 4px;height: 30px;display: inline;;
+   
+  
+  background-color: #0080FF;background-image: url("https://batraman.github.io/invanto/theme-1/img/homepage/right-chevron-small.png");
+  background-repeat: no-repeat;
+  background-position: 90px;
+  color: white;
+  font-size: 14px;
+ padding-right:25px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+.container .btn:active {
+  background-color: #0059B2;
+}
+p.description{
+	width:230px;
+	margin-left:27px;
+	padding: 2px;
+
+	
+}
+.pricevalue{display: inline; }
+.priceValue .unit{font-size:18px;padding-left: 10px;display: inline;float: left;
+	color:#1b1b1b;line-height:1;margin-right:.2rem; vertical-align: super;margin-left: 20px;}
+.priceValue .amount{font-size:36px;;color:#1b1b1b;float:left; margin-top:-7px;display: inline;margin-right: 60px; }
+.free{font-size:33px;
+color:#59B200;
+display: inline;margin-right:40px;padding-left: 25px}
+
+
+/*.end{
+background-image:;	
+background-size: ;
+}*/
